@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-import plotly 
+
 
 from components.cads.cards import  card_bruto, card_caixa, card_custo, card_investimento, card_liquido
 from components.graficos_line.graficoline import grafico_1, grafico_2, grafico_3
