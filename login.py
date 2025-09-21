@@ -216,7 +216,7 @@ else:
 
                 st.success("✅ Login realizado com sucesso!")
                 time.sleep(2)  # dá um tempinho para o usuário ver o sucesso
-                st.switch_page("dash.py")  # Redireciona para o dashboard
+                st.switch_page("dash")  # Redireciona para o dashboard
 
             else:
                     st.session_state.login = False
