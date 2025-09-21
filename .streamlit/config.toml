@@ -1,0 +1,14 @@
+# Configurações de tema
+[theme]
+base="dark"
+primaryColor="#105c99ff"
+secondaryBackgroundColor="#1f3d69"
+
+# Outras configurações opcionais
+[server]
+headless = true
+port = 8522
+enableCORS = false
+
+[browser]
+gatherUsageStats = true
